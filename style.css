@@ -1,0 +1,40 @@
+body {
+  font-family: "Courier", "Courier New";
+  /*font-weight: bold;*/
+  font-size: 18px;
+  color: #00ff00;
+  background: #00111a;
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+input{
+  background:none;
+  font-size: 18px;
+  /*font-weight: bold;*/
+  border:none !important;
+  color:#00ff00;
+  font-family:"Courier", "Courier New";
+  pointer-events: default !important;
+}
+
+*:focus {
+    outline: none;
+}
+
+.error{
+  color: #ff1a1a;
+}
+
+.highlight{
+  color: #ffcc00;
+}
+
+.text{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: #ffcc00;
+}
