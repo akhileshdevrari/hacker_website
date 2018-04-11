@@ -71,7 +71,8 @@ function process_input(input)
 	else if(input == "projects")
 	{
 		var bird = "<span class=\"highlight\">Bird : </span>";
-		bird += "<span class=\"text\">A simple interpreted language name Bird and interpreter for it.<br></span>";
+		bird += "<span class=\"text\">Interpreter for a simple programming language supporting dynamically typed variables, ";
+		bird += "mathematical operators, conditional and loop statements.<br></span>"
 
 		var codegym = "<span class=\"highlight\">CodeGym : </span>";
 		codegym+= "<span class=\"text\">A practice platform for competitive programmers to improve through customizable programming contests.<br></span>"
@@ -83,7 +84,7 @@ function process_input(input)
 		tictactoe += "<span class=\"text\">Tic-tac-toe game AI based on MinMax algorithm.<br></span>";
 
 		var quasar = "<span class=\"highlight\">Quasar : </span>";
-		quasar += "<span class=\"text\">Chess engine under devlopment.<br></span>";
+		quasar += "<span class=\"text\">Chess engine (under devlopment).<br></span>";
 
 		var link = "Have a look: <a href=\"https://github.com/akhileshdevrari\" target=\"none\">https://github.com/akhileshdevrari<\a><br>";
 
@@ -160,5 +161,9 @@ E-mail: b16005@students.iitmandi.ac.in
 Address: 004 B3, South Campus
 		IIT Mandi
 		PIN: 175005
+
+
+INTERPRETER FOR A SIMPLE PROGRAMMING LANGUAGE SUPPORTING DYNAMICALLY TYPED VARIABLES,
+MATHEMATICAL OPERATORS, CONDITIONAL AND LOOP STATEMENTS.
 
 */
