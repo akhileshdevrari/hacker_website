@@ -58,7 +58,7 @@ function process_input(input)
 	else if(input == "about")
 	{
 		var about = "Computer science undergrad, IIT Mandi.<br>";
-		about+="No glasses, I C well. I actually C++<br>"
+		about+="No glasses, I C well.<br>"
 		about+="<br>"
 		document.getElementById('console').innerHTML += "<span class=\"text\">"+about+"</span>";
 		take_input();
